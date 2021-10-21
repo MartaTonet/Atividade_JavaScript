@@ -21,6 +21,6 @@ console.log(idade2)
     console.log(nome2 + " tem mais idade que " + nome1)
     
 }else{
-        console.log(nome1 + " e " + nome2 + " têm a mesma idade. ")  
+        console.log(nome1 + " e " + nome2 + " têm a mesma idade. ")   
 }  
 

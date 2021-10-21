@@ -27,9 +27,19 @@ var dadosDoProcesso = [{
     altura: 1.80,
     nacionalidade: "venezuela",
 }]
- 
 
-console.table(dadosDoProcesso); 
+//terminar esse codigo a baixo
+ for(cadastro of dadosDoProcesso ){
+     console.log(cadastro)
+     if (cadastro.nacionalidade == "Angola") {
+         cadastro.continente = "África"
+     }else{
+         cadastro.continente = "Ámerica do Sul"
+         
+     }
+ } 
+
+console.table(dadosDoProcesso);   
 
 
 
