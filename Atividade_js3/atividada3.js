@@ -28,7 +28,6 @@ var dadosDoProcesso = [{
     nacionalidade: "venezuela",
 }]
 
-//terminar esse codigo a baixo
  for(cadastro of dadosDoProcesso ){
      console.log(cadastro)
      if (cadastro.nacionalidade == "Angola") {
