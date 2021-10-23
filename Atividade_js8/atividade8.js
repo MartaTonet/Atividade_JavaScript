@@ -33,7 +33,7 @@ function Pessoa(nome1, idade1, nome2, idade2){
     
    
 }
-Pessoa();
+Pessoa(); 
 
 //O codigo a baixo vai executar a função dentro de uma variavel
 
