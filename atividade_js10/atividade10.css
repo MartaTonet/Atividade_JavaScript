@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* body{
+    background-color:maroon;
+} */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 15px;
+    width:300px ;
+    background-color: darkcyan;
+    box-shadow:2px 3px 9px black;
+}
+
+.formulario label{
+    color:#ffff;
+    font-size: 20px;
+    
+}
+
+.formulario input{
+    background-color:#ffff ;
+    border: 2px solid;
+    border-radius: 5px;
+    color:black;
+    font-size: 13px; 
+    margin-bottom: 8px;
+    height: 40px; 
+
+}
+
+.registrar{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 5px 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+/* .registrar:hover{
+    background-color:black; */
