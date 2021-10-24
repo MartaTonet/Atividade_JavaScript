@@ -5,24 +5,23 @@ function capturar(){
 
     let n2 = document.getElementById('nome2').value;
     let i2 = document.getElementById('idade2').value;
-    
-  
-    
     if(i1 > i2) {
-        resultado.innerHTML= (`${n1} tem mais idade que ${n2} \n Sendo que ${n1} tem ${i1} e ${n2} tem ${i2} anos de idade  ` )
+        resultado.innerHTML= (`${n1} tem mais idade que ${n2} \n Sendo que ${n1} tem ${i1} e ${n2} tem ${i2} anos de idade.` )
 
     }else if (i1 < i2) {        
-        resultado.innerHTML = (`${n2} tem mais idade que ${n1} \n Sendo que ${n2} tem ${i2} e ${n1} tem ${i1} anos de idade.  ` )
+        resultado.innerHTML = (`${n2} tem mais idade que ${n1} \n Sendo que ${n2} tem ${i2} e ${n1} tem ${i1} anos de idade.` )
         
-    }else{
-        resultado.innerHTML = (`${n1} e ${n2} têm a mesma idade. \n Visto que ${n1} tem ${i1} e ${n2} também tem  ${i2} anos de idade  ` ) 
+    }else if(i1 === i2){
+        resultado.innerHTML = (`<strong>${n1} e ${n2} têm a mesma idade. \n Visto que ${n1} tem ${i1} e ${n2} também tem  ${i2} anos de idade.</strong>`) 
     } 
 
-   
+    if(n1==="" || idade===""){
+        alert("CAMPOS VAZIOS...! Insira os valores requeridos..!")
+        resultado.innerHTML =('')
+    }
 }
 
-let form = document.getElementById('formSubmit');
+// let form = document.getElementById('formSubmit');
 
-form.addEventListener('click'), function(event){
-    event.preventDefault();
-}
+// form.addEventListener('click'), function(event){
+//     event.preventDefault();
